@@ -49,7 +49,7 @@ outputs:
         # noxfile.py#L38
         - mock
         # asyncmock not available
-        - asyncmock
+        # - asyncmock
         - pytest-asyncio
       source_files:
         - tests/unit
