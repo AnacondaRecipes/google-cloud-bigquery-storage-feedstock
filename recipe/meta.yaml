@@ -26,6 +26,8 @@ requirements:
 outputs:
   - name: {{ name }}
     build:
+      # we skip py<38 following along conda-forge, to avoid importlib-metadata
+      # which is needed for py37
       skip: true  # [py<38]
 
     requirements:
