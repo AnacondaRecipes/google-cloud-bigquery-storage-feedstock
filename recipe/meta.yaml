@@ -192,3 +192,5 @@ extra:
     - pshiko
     - tswast
     - xhochy
+  skip-lints:
+    - wrong_output_script_key
