@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   # we skip py<38 following along conda-forge, to avoid importlib-metadata
   # which is needed for py37
   skip: true  # [py<38]
