@@ -2,3 +2,6 @@ anaconda_config_version: 1
 upstream_sources:
   - pypi:
       identifier: google-cloud-bigquery-storage
+    packages:
+      - google-cloud-bigquery-storage
+      - google-cloud-bigquery-storage-core
